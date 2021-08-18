@@ -1,0 +1,46 @@
+##file
+*.app.dSYM.zip
+.DS_Store
+
+## Build generated
+build/
+DerivedData
+
+## .DS_store
+*.DS_Store
+.DS_Store
+.DS_Store?
+*.swp
+*.swo
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+
+## Other
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+
+
+#CocoaPods
+Pods
+Podfile.lock
+
+
+IPADir
+build
+shell.sh
+
