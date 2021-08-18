@@ -1,0 +1,7 @@
+platform:'ios', 11.0
+
+target 'IOS_OC_SL' do
+
+pod 'Masonry'
+
+end

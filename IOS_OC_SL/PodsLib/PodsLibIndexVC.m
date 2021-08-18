@@ -1,22 +1,22 @@
 //
-//  ViewController.m
+//  PodsLibIndexVC.m
 //  IOS_OC_SL
 //
 //  Created by 柯南 on 2021/8/18.
 //
 
-#import "ViewController.h"
+#import "PodsLibIndexVC.h"
 
-@interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
+@interface PodsLibIndexVC ()<UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, copy) NSArray *dataList;
 @end
 
-@implementation ViewController
+@implementation PodsLibIndexVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"目录";
+    self.title = @"三方库索引";
     [self configUI];
 }
 
@@ -69,7 +69,7 @@
 
 - (NSArray *)dataList{
     if (!_dataList) {
-        _dataList = @[@{@"三方库索引":@"PodsLibIndexVC"},@{@"属性":@"PodsLibVC"},@{@"属性":@"PodsLibVC"},@{@"属性":@"PodsLibVC"}];
+        _dataList = @[@{@"Masonry 详解":@"MasonryVC"}];
     }
     return _dataList;
 }
