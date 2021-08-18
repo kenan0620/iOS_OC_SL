@@ -16,6 +16,7 @@
 		2768DFBC26CCD932004FA292 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2768DFBB26CCD932004FA292 /* main.m */; };
 		2768DFF326CCED9D004FA292 /* PodsLibIndexVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2768DFF226CCED9D004FA292 /* PodsLibIndexVC.m */; };
 		2768DFF926CD0290004FA292 /* MasonryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2768DFF826CD0290004FA292 /* MasonryVC.m */; };
+		2768E00C26CD2952004FA292 /* InjectionIIIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2768E00B26CD2952004FA292 /* InjectionIIIHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,8 @@
 		2768DFF226CCED9D004FA292 /* PodsLibIndexVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodsLibIndexVC.m; sourceTree = "<group>"; };
 		2768DFF726CD0290004FA292 /* MasonryVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasonryVC.h; sourceTree = "<group>"; };
 		2768DFF826CD0290004FA292 /* MasonryVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryVC.m; sourceTree = "<group>"; };
+		2768E00A26CD2952004FA292 /* InjectionIIIHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InjectionIIIHelper.h; sourceTree = "<group>"; };
+		2768E00B26CD2952004FA292 /* InjectionIIIHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InjectionIIIHelper.m; sourceTree = "<group>"; };
 		54BFDDFC4BCD704B001DF0CD /* Pods-IOS_OC_SL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS_OC_SL.release.xcconfig"; path = "Target Support Files/Pods-IOS_OC_SL/Pods-IOS_OC_SL.release.xcconfig"; sourceTree = "<group>"; };
 		A909834A64C444B142B45F8F /* libPods-IOS_OC_SL.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IOS_OC_SL.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3B1A230AA20EB26D7666CB0 /* Pods-IOS_OC_SL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS_OC_SL.debug.xcconfig"; path = "Target Support Files/Pods-IOS_OC_SL/Pods-IOS_OC_SL.debug.xcconfig"; sourceTree = "<group>"; };
@@ -76,6 +79,8 @@
 				2768DFAA26CCD926004FA292 /* AppDelegate.m */,
 				2768DFAF26CCD926004FA292 /* ViewController.h */,
 				2768DFB026CCD926004FA292 /* ViewController.m */,
+				2768E00A26CD2952004FA292 /* InjectionIIIHelper.h */,
+				2768E00B26CD2952004FA292 /* InjectionIIIHelper.m */,
 				2768DFF026CCED65004FA292 /* PodsLib */,
 				2768DFB226CCD926004FA292 /* Main.storyboard */,
 				2768DFB526CCD932004FA292 /* Assets.xcassets */,
@@ -223,6 +228,7 @@
 				2768DFAB26CCD926004FA292 /* AppDelegate.m in Sources */,
 				2768DFF926CD0290004FA292 /* MasonryVC.m in Sources */,
 				2768DFBC26CCD932004FA292 /* main.m in Sources */,
+				2768E00C26CD2952004FA292 /* InjectionIIIHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
