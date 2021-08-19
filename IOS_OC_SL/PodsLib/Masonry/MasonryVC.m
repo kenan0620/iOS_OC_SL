@@ -94,6 +94,7 @@
     [self.masLabel3 mas_makeConstraints:^(MASConstraintMaker *make) {
         // 距离底部安全区100,bottom往上是负数,往下是正数
         make.bottom.equalTo(self.view.mas_safeAreaLayoutGuideBottom).offset(-100);
+        make.top.mas_equalTo(self.view).offset(10);
     }];
     
     self.masLabel1.text = @"添加的视图1";
@@ -135,7 +136,6 @@
     
     // 设置array的水平方向的约束
     [self.masonryViewArray mas_makeConstraints:^(MASConstraintMaker *make) {
-        
         make.left.equalTo(self.view).offset(50);
         make.width.mas_equalTo(80);
     }];
